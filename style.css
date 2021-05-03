@@ -1,0 +1,236 @@
+body{
+    margin : 0px
+}
+#R-header{
+    height: 65vh;
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg");
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: large;
+}
+#R-header nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#R-header nav ul li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid darkgrey;
+    font-family: cursive;
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+#Name{
+    font-style: italic;
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: white;
+    
+}
+#name-social-container{
+    margin-top: 20vh;
+}
+.hv li a i:hover{
+    box-shadow: 1px 1px 6px 4px darkgrey;
+}
+.hv li a i{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+}
+#about{
+    height: auto;
+    width: 100%; 
+    position: relative;
+}
+#my-image{
+    height: 15rem;
+    width: 15rem;
+    border: thin whitesmoke;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -17vh;
+}
+#my-image img{
+    box-shadow: 0px 0px 6px 4px darkgrey;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#about-para{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+#about-para p{
+    color: #384646;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section:nth-child(2n){
+    background-color: rgb(252, 247, 247);
+}
+
+section:nth-child(2n+1){
+    background-color: rgb(253, 249, 249);
+}
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+.section-heading span{
+    color: #2857a4;
+    font-size: 40px;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+.skills-display{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills-progress{
+    width: 15rem;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 1.6rem;
+    margin: 2rem;
+    /* border: 2px solod black; */
+}
+.skills-progress>div{
+    border-radius: 20px 0px 0px 20px;
+}
+.mb-blue{
+    background-color: rgb(86, 62, 226);
+}
+.mb-orange{
+    background-color: rgb(233, 173, 61);
+}
+.mb-red{
+    background-color: rgb(221, 88, 88);
+}
+.mb-green{
+    background-color: rgb(39, 150, 81);
+    /* overflow-wrap: break-word; */
+}
+.mb-purpule{
+    background-color: rgb(218, 49, 218);
+}
+.mb-yellow{
+    background-color: rgb(119, 119, 8);
+}
+.eighty-five{
+    width: 85%;
+    height: inherit;
+}
+.fifty{
+    width: 50%;
+    height: inherit;
+}
+.fifty-one{
+    width: 51%;
+    height:inherit;
+}
+.eighty{
+    width: 80%;
+    height:inherit;
+}
+.sixty-five{
+    width: 65%;
+    height:inherit;
+}
+.seventy-three{
+    width: 73%;
+    height:inherit;
+}
+.skill-name span{
+    color: white;
+    font-size: 2.5rem;
+}
+
+#education{
+    height: auto;
+    width: auto;
+}
+.timeline{
+    position: relative;
+    width: 75%;
+
+}
+.timeline-boxes{
+    position: relative;
+    width: 45%;
+    height: auto;
+    left: 5%;
+    margin: 2rem;
+}
+.timeline-boxes:nth-child(2n){
+    left: 53%;
+}
+.work-place{
+    /* font-size: larger; */
+    font-size: 1.5rem;
+    color: rgb(66, 103, 178);
+    font-weight: bold;
+
+}
+.work-pos{
+    color: black;
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.work-exp{
+    color: rgb(112, 110, 110);
+}
+.work-strt-end{
+    margin-top: -1.4rem;
+    margin-bottom: -0.6rem;
+    margin-left: 0.5rem;
+}
+.timeline-divider{
+    position: absolute;
+    height: 90%;
+    width: 0px;
+    border: 1px dotted rgb(66, 103, 178);;
+    top: 10%;
+    left: 54%;
+}
+.timeline-traveller{
+    position: sticky;
+    top: 20%;
+    transform: rotate(90deg);
+}
